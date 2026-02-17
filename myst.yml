@@ -1,69 +1,57 @@
 version: 1
 extends:
 - https://raw.githubusercontent.com/Open-Scholar-Nexus/oaktree-sapling/v0.1.0/nexus.yml
-- https://raw.githubusercontent.com/Open-Scholar-Nexus/oaktree-sapling-config/v0.1.0/isp-micropublication-2025.yml
+- https://raw.githubusercontent.com/Open-Scholar-Nexus/oaktree-sapling-config/v0.1.0/climatematch-2023.yml
 
 project:
-  # Uncomment and fill when published
-  # doi: 10.5281/zenodo.XXXXXXX
-  # date: YYYY-MM-DD
+  doi: 10.5281/zenodo.11201102
+  date: 2024-05-16
   authors:
-  - name: Doe, J.
-    orcid: 0000-0000-0000-0001
+  - name: Anjana Shree R J
+    email: rjanjana2003@gmail.com
     affiliations:
-    - Department of Geosciences and Natural Resource Management, University of Copenhagen, Denmark
-    roles:
-    - Conceptualization
-    - Formal analysis
-    - Investigation
-    - Methodology
-    - Software
-    - Visualization
-    - Writing - original draft
-    - Writing - review & editing
-  - name: Sharma, A.J.
-    orcid: 0000-0000-0000-0002
+    - Thiagarajar College, India
+    corresponding: true
+  - name: Kimia Marvi
+    email: kimia.marvi.33@gmail.com
     affiliations:
-    - Department of Earth Sciences, Indian Institute of Technology Bombay, Mumbai, India
-    roles:
-    - Formal analysis
-    - Investigation
-    - Writing - original draft
-    - Writing - review & editing
-  - name: Tanaka, S.
+    - University of Teheran, Iran
+    corresponding: true
+  - name: Kirtana Sunil Phatnani
+    email: kirtanaphatnani99@gmail.com
+    orcid: 0000-0001-9988-1167
     affiliations:
-    - College of Urban and Environmental Sciences, Peking University, Beijing, China
-    roles:
-    - Formal analysis
-    - Writing - original draft
-    - Writing - review & editing
-  - name: Vera Gutierrez, C.
+    - Fractal Analytics, India
+    corresponding: true
+  - name: Neil Marc Sordilla
+    email: nmsordilla@gmail.com
     affiliations:
-    - Institute of Geology, Mining, and Metallurgy, Universidad Nacional Mayor de San Marcos, Lima, Peru
-    roles:
-    - Formal analysis
-    - Writing - original draft
-    - Writing - review & editing
-  - name: Ndlovu, T.
+    - Hasselt University, Belgium
+    corresponding: true
+  - name: Eligio Maure
+    email: eligiomaure@gmail.com
     affiliations:
-    - Marine Research and Development, Oceanic Dynamics Ltd., Cape Town, South Africa
-    roles:
-    - Formal analysis
-    - Writing - review & editing
+    - Navagis Inc., Mozambique
+    corresponding: true
+  - name: Danny McCulloch
+    email: dm575@exeter.ac.uk
+    affiliations:
+    - University of Exeter, United Kingdom
+    corresponding: true
 
   toc:
   - file: index.md
 
-  id: isp-micropublication-template
-  title: This is the title of our awesome micropublication
+  id: enso-climate-pacific-region
+  title: Impacts of ENSO on Climate Variable in the Pacific Region
   keywords:
-  - keyword1
-  - keyword2
-  - keyword3
-  - keyword4
-  github: https://github.com/Open-Scholar-Nexus/isp-micropublication-template
-  bibliography:
-  - bib.bib
-  # downloads:
-  # - file: supplementary-material.zip
-  #   title: Supplementary Material
+  - ENSO
+  - Sea Surface Temperature
+  - Air Temperature
+  - Oceanic Niño Index
+  github: https://github.com/Open-Scholar-Nexus/shree-2023-enso-climate-pacific
+  downloads:
+  - file: CISP2024-ENSO-Climate-PacificRegion-source-code.zip
+    title: Code
+  - file: CISP2024-ENSO-Climate-PacificRegion-supplementary-materials.zip
+    title: Supplementary material
